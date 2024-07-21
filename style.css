@@ -1,0 +1,25 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    /* Styles for small screens */
+    body {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+    body {
+        font-size: 120px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles for large screens */
+    body {
+        font-size: 180px;
+    }
+}
